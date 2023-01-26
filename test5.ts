@@ -1,5 +1,11 @@
 type AnimalType = 'cat' | 'dog' | 'bird';
 
+function genericFn<T>(data: T): T {
+  return data;
+}
+
+const genericArrFn = <T>(data: T): T => data;
+
 interface IAnimal {
   animal: AnimalType,
   breed: string,

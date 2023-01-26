@@ -2,7 +2,6 @@ const emailInput = document.getElementById('email') as HTMLInputElement | null;
 const titleInput = document.getElementById('title') as HTMLInputElement | null;
 const textInput = document.getElementById('text') as HTMLInputElement | null;
 const checkboxInput = document.getElementById('checkbox') as HTMLInputElement | null;
-
 const submitButtons = document.querySelectorAll('button[type="submit"]');
 
 interface IFormData {
